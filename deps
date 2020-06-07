@@ -1,0 +1,259 @@
+
+> Task :dependencies
+
+------------------------------------------------------------
+Root project
+------------------------------------------------------------
+
+-api (n)
+No dependencies
+
+-runtime (n)
++--- org.jetbrains.kotlin:kotlin-bom:1.3.72 (n)
+\--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72 (n)
+
+annotationProcessor - Annotation processors and their dependencies for source set 'main'.
+No dependencies
+
+api - API dependencies for compilation 'main' (target  (jvm)). (n)
+No dependencies
+
+apiDependenciesMetadata
+No dependencies
+
+apiElements - API elements for main. (n)
+No dependencies
+
+archives - Configuration for archive artifacts. (n)
+No dependencies
+
+compileClasspath - Compile classpath for compilation 'main' (target  (jvm)).
++--- org.jetbrains.kotlin:kotlin-bom:1.3.72
+|    +--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72 (c)
+|    +--- org.jetbrains.kotlin:kotlin-stdlib:1.3.72 (c)
+|    +--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.72 (c)
+|    \--- org.jetbrains.kotlin:kotlin-stdlib-common:1.3.72 (c)
+\--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72
+     +--- org.jetbrains.kotlin:kotlin-stdlib:1.3.72
+     |    +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.3.72
+     |    \--- org.jetbrains:annotations:13.0
+     \--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.72
+          \--- org.jetbrains.kotlin:kotlin-stdlib:1.3.72 (*)
+
+compileOnly - Compile only dependencies for compilation 'main' (target  (jvm)). (n)
+No dependencies
+
+compileOnlyDependenciesMetadata
+No dependencies
+
+default - Configuration for default artifacts. (n)
+No dependencies
+
+implementation - Implementation only dependencies for compilation 'main' (target  (jvm)). (n)
++--- org.jetbrains.kotlin:kotlin-bom:1.3.72 (n)
+\--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72 (n)
+
+implementationDependenciesMetadata
++--- org.jetbrains.kotlin:kotlin-bom:1.3.72
+|    +--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72 (c)
+|    +--- org.jetbrains.kotlin:kotlin-stdlib:1.3.72 (c)
+|    +--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.72 (c)
+|    \--- org.jetbrains.kotlin:kotlin-stdlib-common:1.3.72 (c)
+\--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72
+     +--- org.jetbrains.kotlin:kotlin-stdlib:1.3.72
+     |    +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.3.72
+     |    \--- org.jetbrains:annotations:13.0
+     \--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.72
+          \--- org.jetbrains.kotlin:kotlin-stdlib:1.3.72 (*)
+
+kotlinCompilerClasspath
+\--- org.jetbrains.kotlin:kotlin-compiler-embeddable:1.3.72
+     +--- org.jetbrains.kotlin:kotlin-stdlib:1.3.72
+     |    +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.3.72
+     |    \--- org.jetbrains:annotations:13.0
+     +--- org.jetbrains.kotlin:kotlin-script-runtime:1.3.72
+     +--- org.jetbrains.kotlin:kotlin-reflect:1.3.72
+     |    \--- org.jetbrains.kotlin:kotlin-stdlib:1.3.72 (*)
+     +--- org.jetbrains.kotlin:kotlin-daemon-embeddable:1.3.72
+     \--- org.jetbrains.intellij.deps:trove4j:1.0.20181211
+
+kotlinCompilerPluginClasspath
+\--- org.jetbrains.kotlin:kotlin-scripting-compiler-embeddable:1.3.72
+     +--- org.jetbrains.kotlin:kotlin-scripting-compiler-impl-embeddable:1.3.72
+     |    +--- org.jetbrains.kotlin:kotlin-scripting-common:1.3.72
+     |    |    +--- org.jetbrains.kotlin:kotlin-stdlib:1.3.72
+     |    |    |    +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.3.72
+     |    |    |    \--- org.jetbrains:annotations:13.0
+     |    |    \--- org.jetbrains.kotlinx:kotlinx-coroutines-core:1.2.1
+     |    +--- org.jetbrains.kotlin:kotlin-scripting-jvm:1.3.72
+     |    |    +--- org.jetbrains.kotlin:kotlin-script-runtime:1.3.72
+     |    |    +--- org.jetbrains.kotlin:kotlin-stdlib:1.3.72 (*)
+     |    |    \--- org.jetbrains.kotlin:kotlin-scripting-common:1.3.72 (*)
+     |    +--- org.jetbrains.kotlin:kotlin-stdlib:1.3.72 (*)
+     |    \--- org.jetbrains.kotlinx:kotlinx-coroutines-core:1.2.1
+     \--- org.jetbrains.kotlin:kotlin-stdlib:1.3.72 (*)
+
+kotlinNativeCompilerPluginClasspath
+No dependencies
+
+kotlinScriptDef - Script filename extensions discovery classpath configuration
+No dependencies
+
+kotlinScriptDefExtensions
+No dependencies
+
+runtimeClasspath - Runtime classpath of compilation 'main' (target  (jvm)).
++--- org.jetbrains.kotlin:kotlin-bom:1.3.72
+|    +--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72 (c)
+|    +--- org.jetbrains.kotlin:kotlin-stdlib:1.3.72 (c)
+|    +--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.72 (c)
+|    \--- org.jetbrains.kotlin:kotlin-stdlib-common:1.3.72 (c)
+\--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72
+     +--- org.jetbrains.kotlin:kotlin-stdlib:1.3.72
+     |    +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.3.72
+     |    \--- org.jetbrains:annotations:13.0
+     \--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.72
+          \--- org.jetbrains.kotlin:kotlin-stdlib:1.3.72 (*)
+
+runtimeElements - Elements of runtime for main. (n)
+No dependencies
+
+runtimeOnly - Runtime only dependencies for compilation 'main' (target  (jvm)). (n)
+No dependencies
+
+runtimeOnlyDependenciesMetadata
+No dependencies
+
+sourceArtifacts (n)
+No dependencies
+
+testAnnotationProcessor - Annotation processors and their dependencies for source set 'test'.
+No dependencies
+
+testApi - API dependencies for compilation 'test' (target  (jvm)). (n)
+No dependencies
+
+testApiDependenciesMetadata
+No dependencies
+
+testCompileClasspath - Compile classpath for compilation 'test' (target  (jvm)).
++--- org.jetbrains.kotlin:kotlin-bom:1.3.72
+|    +--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72 (c)
+|    +--- org.jetbrains.kotlin:kotlin-test:1.3.72 (c)
+|    +--- org.jetbrains.kotlin:kotlin-test-junit5:1.3.72 (c)
+|    +--- org.jetbrains.kotlin:kotlin-stdlib:1.3.72 (c)
+|    +--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.72 (c)
+|    +--- org.jetbrains.kotlin:kotlin-test-common:1.3.72 (c)
+|    +--- org.jetbrains.kotlin:kotlin-test-annotations-common:1.3.72 (c)
+|    \--- org.jetbrains.kotlin:kotlin-stdlib-common:1.3.72 (c)
++--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72
+|    +--- org.jetbrains.kotlin:kotlin-stdlib:1.3.72
+|    |    +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.3.72
+|    |    \--- org.jetbrains:annotations:13.0
+|    \--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.72
+|         \--- org.jetbrains.kotlin:kotlin-stdlib:1.3.72 (*)
++--- org.jetbrains.kotlin:kotlin-test:1.3.72
+|    +--- org.jetbrains.kotlin:kotlin-test-common:1.3.72
+|    |    \--- org.jetbrains.kotlin:kotlin-stdlib-common:1.3.72
+|    \--- org.jetbrains.kotlin:kotlin-stdlib:1.3.72 (*)
+\--- org.jetbrains.kotlin:kotlin-test-junit5:1.3.72
+     +--- org.jetbrains.kotlin:kotlin-test-annotations-common:1.3.72
+     |    \--- org.jetbrains.kotlin:kotlin-stdlib-common:1.3.72
+     +--- org.jetbrains.kotlin:kotlin-test:1.3.72 (*)
+     \--- org.junit.jupiter:junit-jupiter-api:5.0.0
+          +--- org.apiguardian:apiguardian-api:1.0.0
+          +--- org.opentest4j:opentest4j:1.0.0
+          \--- org.junit.platform:junit-platform-commons:1.0.0
+               \--- org.apiguardian:apiguardian-api:1.0.0
+
+testCompileOnly - Compile only dependencies for compilation 'test' (target  (jvm)). (n)
+No dependencies
+
+testCompileOnlyDependenciesMetadata
+No dependencies
+
+testImplementation - Implementation only dependencies for compilation 'test' (target  (jvm)). (n)
++--- org.jetbrains.kotlin:kotlin-test:1.3.72 (n)
+\--- org.jetbrains.kotlin:kotlin-test-junit5:1.3.72 (n)
+
+testImplementationDependenciesMetadata
++--- org.jetbrains.kotlin:kotlin-bom:1.3.72
+|    +--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72 (c)
+|    +--- org.jetbrains.kotlin:kotlin-test:1.3.72 (c)
+|    +--- org.jetbrains.kotlin:kotlin-test-junit5:1.3.72 (c)
+|    +--- org.jetbrains.kotlin:kotlin-stdlib:1.3.72 (c)
+|    +--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.72 (c)
+|    +--- org.jetbrains.kotlin:kotlin-test-common:1.3.72 (c)
+|    +--- org.jetbrains.kotlin:kotlin-test-annotations-common:1.3.72 (c)
+|    \--- org.jetbrains.kotlin:kotlin-stdlib-common:1.3.72 (c)
++--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72
+|    +--- org.jetbrains.kotlin:kotlin-stdlib:1.3.72
+|    |    +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.3.72
+|    |    \--- org.jetbrains:annotations:13.0
+|    \--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.72
+|         \--- org.jetbrains.kotlin:kotlin-stdlib:1.3.72 (*)
++--- org.jetbrains.kotlin:kotlin-test:1.3.72
+|    +--- org.jetbrains.kotlin:kotlin-test-common:1.3.72
+|    |    \--- org.jetbrains.kotlin:kotlin-stdlib-common:1.3.72
+|    \--- org.jetbrains.kotlin:kotlin-stdlib:1.3.72 (*)
+\--- org.jetbrains.kotlin:kotlin-test-junit5:1.3.72
+     +--- org.jetbrains.kotlin:kotlin-test-annotations-common:1.3.72
+     |    \--- org.jetbrains.kotlin:kotlin-stdlib-common:1.3.72
+     +--- org.jetbrains.kotlin:kotlin-test:1.3.72 (*)
+     \--- org.junit.jupiter:junit-jupiter-api:5.0.0
+          +--- org.apiguardian:apiguardian-api:1.0.0
+          +--- org.opentest4j:opentest4j:1.0.0
+          \--- org.junit.platform:junit-platform-commons:1.0.0
+               \--- org.apiguardian:apiguardian-api:1.0.0
+
+testKotlinScriptDef - Script filename extensions discovery classpath configuration
+No dependencies
+
+testKotlinScriptDefExtensions
+No dependencies
+
+testRuntimeClasspath - Runtime classpath of compilation 'test' (target  (jvm)).
++--- org.jetbrains.kotlin:kotlin-bom:1.3.72
+|    +--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72 (c)
+|    +--- org.jetbrains.kotlin:kotlin-test:1.3.72 (c)
+|    +--- org.jetbrains.kotlin:kotlin-test-junit5:1.3.72 (c)
+|    +--- org.jetbrains.kotlin:kotlin-stdlib:1.3.72 (c)
+|    +--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.72 (c)
+|    +--- org.jetbrains.kotlin:kotlin-test-common:1.3.72 (c)
+|    +--- org.jetbrains.kotlin:kotlin-test-annotations-common:1.3.72 (c)
+|    \--- org.jetbrains.kotlin:kotlin-stdlib-common:1.3.72 (c)
++--- org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.72
+|    +--- org.jetbrains.kotlin:kotlin-stdlib:1.3.72
+|    |    +--- org.jetbrains.kotlin:kotlin-stdlib-common:1.3.72
+|    |    \--- org.jetbrains:annotations:13.0
+|    \--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.72
+|         \--- org.jetbrains.kotlin:kotlin-stdlib:1.3.72 (*)
++--- org.jetbrains.kotlin:kotlin-test:1.3.72
+|    +--- org.jetbrains.kotlin:kotlin-test-common:1.3.72
+|    |    \--- org.jetbrains.kotlin:kotlin-stdlib-common:1.3.72
+|    \--- org.jetbrains.kotlin:kotlin-stdlib:1.3.72 (*)
+\--- org.jetbrains.kotlin:kotlin-test-junit5:1.3.72
+     +--- org.jetbrains.kotlin:kotlin-test-annotations-common:1.3.72
+     |    \--- org.jetbrains.kotlin:kotlin-stdlib-common:1.3.72
+     +--- org.jetbrains.kotlin:kotlin-test:1.3.72 (*)
+     \--- org.junit.jupiter:junit-jupiter-api:5.0.0
+          +--- org.apiguardian:apiguardian-api:1.0.0
+          +--- org.opentest4j:opentest4j:1.0.0
+          \--- org.junit.platform:junit-platform-commons:1.0.0
+               \--- org.apiguardian:apiguardian-api:1.0.0
+
+testRuntimeOnly - Runtime only dependencies for compilation 'test' (target  (jvm)). (n)
+No dependencies
+
+testRuntimeOnlyDependenciesMetadata
+No dependencies
+
+(c) - dependency constraint
+(*) - dependencies omitted (listed previously)
+
+(n) - Not resolved (configuration is not meant to be resolved)
+
+A web-based, searchable dependency report is available by adding the --scan option.
+
+BUILD SUCCESSFUL in 2s
+1 actionable task: 1 executed
